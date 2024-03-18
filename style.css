@@ -1,0 +1,130 @@
+/* Transformar todos los textos a minúsculas */
+input[type="text"], textarea {
+    text-transform: lowercase;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: lightblue;
+    overflow: hidden; /* Ocultar el desplazamiento vertical */
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+/* Estilos para etiquetas de texto */
+.labelTexto, .labelResultado {
+    font-weight: bold;
+}
+
+/* Estilos para el área de texto */
+textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 100px; /* Altura inicial */
+    margin-bottom: 10px;
+    padding: 5px;
+    resize: vertical;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Contenedor de botones */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    textarea {
+        height: 200px; /* Ajustar la altura para dispositivos móviles */
+    }
+    
+    #btnResultado {
+        margin-top: 10px;
+    }
+    
+    .button-container {
+        flex-direction: column;
+    }
+}
+/* Estilos para el contenedor del historial */
+#historial-container {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Estilos para los elementos del historial */
+.historial-item {
+  margin-bottom: 10px;
+}
+
+.historial-item span {
+  display: block;
+  margin-bottom: 5px;
+}
+/* Estilos para el texto del historial */
+.texto-historial {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* Estilos para el estado del historial (encriptado/desencriptado) */
+.estado-historial {
+  font-size: 0.8em;
+  color: #555;
+}
+
+#historial-container {
+  text-align: center; /* Centrar el contenido del contenedor */
+}
+
+#historial-container h3 {
+  margin-bottom: 10px; /* Espacio entre el título y el historial */
+}
+
+#github-cat-container {
+    position: fixed;
+    top: 500px;
+    left: auto;
+    width: 90%;
+    height: 80%;
+    background-image: url('https://octodex.github.com/images/spidertocat.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadeOut 10s forwards; /* 5 segundos de duración */
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
