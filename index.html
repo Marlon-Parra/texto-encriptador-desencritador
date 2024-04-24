@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Encriptador / Desencriptador</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Contenedor de la imagen del gato de GitHub -->
+  <div id="github-cat-container"></div>
+
+  <h1>Encriptador / Desencriptador</h1>
+  
+  <div class="container">
+    <h2><label for="texto" class="labelTexto">Texto:</label></h2>
+    <section>
+      <textarea id="texto_Normal" class="textoNormal" placeholder="campo de texto" onkeyup="validarTextarea(this)"></textarea>
+    </section>
+
+    <div class="button-container">
+      <button id="encriptadorbtn" onclick="encriptadorbtn()">Encriptar</button>
+    </div>
+  </div>
+  
+  <div class="container">
+    <h2><label for="resultado" class="labelResultado">Resultado:</label></h2>
+   
+    <section>
+      <textarea id="campoResultado" placeholder="campo de mensaje"></textarea>
+    </section>
+    
+    <div class="button-container">
+      <button onclick="desencriptarbtn()">Desencriptar</button>
+      <button id="btnResultado" onclick="copiarResultado()">Copiar resultado</button>
+    </div>
+  </div>
+  
+  <div id="historial-container"> <h3 id="Historial">Historial</h3></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
