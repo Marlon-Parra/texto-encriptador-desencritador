@@ -109,6 +109,7 @@ button:hover {
 
 #github-cat-container {
     position: fixed;
+    top: 500px;
     left: auto;
     width: 90%;
     height: 80%;
