@@ -109,8 +109,8 @@ button:hover {
 
 #github-cat-container {
     position: fixed;
-    top: 500px;
     left: auto;
+    top: 450px;
     width: 90%;
     height: 80%;
     background-image: url('https://octodex.github.com/images/spidertocat.png');
