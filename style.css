@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 20px;
     background: lightblue;
-    overflow: hidden; /* Ocultar el desplazamiento vertical */
+    
 }
 
 h1, h2 {
