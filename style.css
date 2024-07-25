@@ -110,7 +110,6 @@ button:hover {
 #github-cat-container {
     position: fixed;
     left: auto;
-    top: 450px;
     width: 90%;
     height: 80%;
     background-image: url('https://octodex.github.com/images/spidertocat.png');
@@ -123,8 +122,10 @@ button:hover {
 @keyframes fadeOut {
     0% {
         opacity: 1;
+        visibility: visible;
     }
     100% {
         opacity: 0;
+        visibility: hidden;
     }
 }
