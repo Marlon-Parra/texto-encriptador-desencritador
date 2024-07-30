@@ -116,7 +116,7 @@ button:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: fadeOut 10s forwards; /* 5 segundos de duración */
+    animation: fadeOut 6s forwards; /* 5 segundos de duración */
 }
 
 @keyframes fadeOut {
