@@ -37,16 +37,25 @@ textarea {
 
 /* Estilos para los botones */
 button {
-    padding: 8px 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
+    padding: 7px 10px;
     cursor: pointer;
-    border-radius: 4px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #faff10, #0038ff 50%, #bb1414);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background .3s ease;
+    text-decoration: none;
 }
 
 button:hover {
-    background-color: #45a049;
+    :hover {
+        color: black;
+        background: linear-gradient(to right, #bb1414, #0038ff 50%, #faff10);
+      }
 }
 
 /* Contenedor de botones */
