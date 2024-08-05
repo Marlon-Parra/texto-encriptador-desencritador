@@ -115,6 +115,7 @@ button:hover {
 
 #historial-container h3 {
   margin-bottom: 10px; /* Espacio entre el título y el historial */
+  text-transform: uppercase;
 }
 
 #github-cat-container {
