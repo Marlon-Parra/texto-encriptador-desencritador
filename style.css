@@ -52,11 +52,10 @@ button {
 }
 
 button:hover {
-    :hover {
         color: black;
         background: linear-gradient(to right, #bb1414, #0038ff 50%, #faff10);
       }
-}
+
 
 /* Contenedor de botones */
 .button-container {
